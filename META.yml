@@ -1,0 +1,35 @@
+---
+abstract: 'faster C<cpan-outdated> using a little more resources'
+author:
+  - KPEE.
+build_requires:
+  Test::More: '0.98'
+configure_requires:
+  Module::Build::Tiny: '0.035'
+dynamic_config: 0
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: cpan-outdated-coro
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  App::cpanoutdated::coro:
+    file: lib/App/cpanoutdated/coro.pm
+    version: '0.01'
+requires:
+  perl: '5.008001'
+version: '0.01'
+x_authority: cpan:KPEE
+x_contributors:
+  - 'KPEE <kpee.cpan@gmail.com>'
